@@ -1,6 +1,6 @@
 # Magento Payment Plugin
 
-## Preinstalation
+## Preinstallation
 
 1. Download .zip from GitHub repository.
 1. Rename folder `bankart-magento-master` inside .zip file to `Pgc` 
