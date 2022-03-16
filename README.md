@@ -1,4 +1,4 @@
-# Magento Payment Plugin
+# Bankart Payment Gateway Magento Plugin
 
 ## Preinstallation
 
