@@ -29,10 +29,10 @@ class CreditCard extends AbstractMethod
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Payment\Model\Method\Logger $logger,
         \Pgc\Pgc\Helper\Data $pgcHelper,
-        \Magento\Framework\Message\ManagerInterface $messageManager
-		\Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
+        \Magento\Framework\Message\ManagerInterface $messageManager,
+        \Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
         \Magento\Framework\Data\Collection\AbstractDb $resourceCollection = null,
-        array $data = [],           
+        array $data = []     
     ) {
         $this->pgcHelper = $pgcHelper;
         $this->messageManager = $messageManager;
