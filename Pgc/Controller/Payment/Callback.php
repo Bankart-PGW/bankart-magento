@@ -59,7 +59,7 @@ class Callback extends Action implements CsrfAwareActionInterface
             die('invalid request');
         }
 
-        $xml =\ simplexml_load_string($notification);
+        $xml = \simplexml_load_string($notification);
         $data = \json_decode(json_encode($xml),true);
 
         if (empty($data)) {
